@@ -1,0 +1,9 @@
+.imageContainer{
+  height: 40em;
+}
+
+@media (max-width: 600px){
+  .imageContainer{
+    height: 15em;
+  }
+}

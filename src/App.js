@@ -1,11 +1,13 @@
 import './App.css';
-import NavbarComponent from './components/shared/NavbarComponent.jsx'
+// import CharactersPage from './pages/CharactersPage';
+import Home from './pages/Home';
 
 function App() {
   
   return (
     <div className="App">
-      <NavbarComponent />
+      <Home />
+      {/* <CharactersPage /> */}
     </div>
   );
 }
